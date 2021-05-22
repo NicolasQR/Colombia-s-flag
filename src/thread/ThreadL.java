@@ -2,11 +2,11 @@ package thread;
 
 import model.*;
 
-public class lineThread extends Thread {
+public class ThreadL extends Thread {
 
-    private ColorLine line;
+    private Color line;
 
-    public lineThread(ColorLine line) {
+    public ThreadL(Color line) {
         this.line = line;
     }
 

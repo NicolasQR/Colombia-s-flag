@@ -1,6 +1,6 @@
 package model;
 
-public class ColorLine {
+public class Color {
 
     public final static String ESC = "\u001b[";
     public final static String UP = ESC + "A";
@@ -18,7 +18,7 @@ public class ColorLine {
 
     String move;
 
-    public ColorLine(int height, int width, String color, int sleep, int initialPos, boolean isFirst) {
+    public Color(int height, int width, String color, int sleep, int initialPos, boolean isFirst) {
         this.height = height;
         this.width = width;
         this.color = color;
